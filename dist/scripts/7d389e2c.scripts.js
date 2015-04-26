@@ -1,0 +1,1 @@
+"use strict";(function(){var a=angular.module("bonVoisinApp",[]);a.config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}])}).call(this),angular.module("bonVoisinApp").controller("MainCtrl",["$scope",function(a){a.awesomeThings=["HTML5 Bootstrap","AngularJS","Karma"]}]);
